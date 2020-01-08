@@ -1,0 +1,27 @@
+
+body{
+    
+    
+}
+header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+
+    
+}
+
+.shop {
+    border: 1px dotted black;
+    width: 30%;
+    padding: 2px;
+}
+
+
