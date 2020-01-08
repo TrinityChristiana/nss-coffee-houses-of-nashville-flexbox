@@ -1,7 +1,12 @@
+body {
+}
 header {
     display: flex;
     justify-content: center;
     padding: 10px;
+    font-weight: bold;
+    font-size: 2em;
+    border-bottom: 2px solid grey;
 }
 
 .list {
@@ -9,14 +14,17 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-between;
-
-    
 }
 
 .shop {
-    border: 1px dotted black;
     width: 30%;
-    padding: 2px;
+    padding: 1px;
+    margin: 5px;
+    border-bottom: .5px dotted grey;
+    border-radius: 3%;
+    background-color:  rgb(253, 252, 252);
 }
+
+
 
 
